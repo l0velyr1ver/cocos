@@ -1,0 +1,119 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "show",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.36666666666666664,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {},
+    "props": {
+      "scaleX": [
+        {
+          "frame": 0,
+          "value": 0,
+          "curve": "quartOut"
+        },
+        {
+          "frame": 0.11666666666666667,
+          "value": 0.8,
+          "curve": "cubicOut"
+        },
+        {
+          "frame": 0.21666666666666667,
+          "value": 1.2,
+          "curve": "sineOut"
+        },
+        {
+          "frame": 0.25,
+          "value": 1,
+          "curve": "cubicOut"
+        },
+        {
+          "frame": 0.2833333333333333,
+          "value": 1,
+          "curve": "cubicInOut"
+        },
+        {
+          "frame": 0.3,
+          "value": 1.2,
+          "curve": "sineInOut"
+        },
+        {
+          "frame": 0.3333333333333333,
+          "value": 1.1
+        }
+      ],
+      "scaleY": [
+        {
+          "frame": 0,
+          "value": 0,
+          "curve": "cubicOut"
+        },
+        {
+          "frame": 0.11666666666666667,
+          "value": 0.6,
+          "curve": "cubicOut"
+        },
+        {
+          "frame": 0.21666666666666667,
+          "value": 0.9,
+          "curve": "sineOut"
+        },
+        {
+          "frame": 0.25,
+          "value": 1
+        }
+      ],
+      "angle": [
+        {
+          "frame": 0,
+          "value": 0,
+          "curve": "cubicOut"
+        },
+        {
+          "frame": 0.11666666666666667,
+          "value": -3,
+          "curve": "cubicInOut"
+        },
+        {
+          "frame": 0.18333333333333332,
+          "value": 0,
+          "curve": "sineOut"
+        },
+        {
+          "frame": 0.21666666666666667,
+          "value": 4
+        },
+        {
+          "frame": 0.25,
+          "value": 4,
+          "curve": "cubicOut"
+        },
+        {
+          "frame": 0.2833333333333333,
+          "value": 0,
+          "curve": "sineInOut"
+        },
+        {
+          "frame": 0.31666666666666665,
+          "value": -3,
+          "curve": "sineInOut"
+        },
+        {
+          "frame": 0.36666666666666664,
+          "value": 0
+        }
+      ]
+    }
+  },
+  "events": [
+    {
+      "frame": 0.36666666666666664,
+      "func": "onAnimationCompleted",
+      "params": []
+    }
+  ]
+}
